@@ -16,6 +16,22 @@ public class Scholar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Empleado Empleado1 = new Empleado ();
+        Empleado1.nombre = "samuel ";
+        Empleado1.apellido = "dulce ";
+       // System.out.println(this.nombre + " " + this.apellido);
+        Empleado1.printName();
+        
+        
+        Estudiante Estudiante1 = new Estudiante ();
+        Estudiante1.nombre = "samuel ";
+        Estudiante1.apellido = "dulce ";
+        System.out.println("nombre del estudiante1 " + Estudiante1.nombre + Estudiante1.apellido);
+        Estudiante1.printName();
+                
+              
+                
     }
     
 }
