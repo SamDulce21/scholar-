@@ -20,8 +20,16 @@ public class Scholar {
         Empleado Empleado1 = new Empleado ();
         Empleado1.nombre = "samuel ";
         Empleado1.apellido = "dulce ";
+        Empleado1.fecha_nacimiento = "21 - 10 - 1999"; 
+       
+      
+        
+        
+        
        // System.out.println(this.nombre + " " + this.apellido);
         Empleado1.printName();
+        Empleado1.fecha_nacimiento = "21 - 10 - 1999" ;
+        
         
         
         Estudiante Estudiante1 = new Estudiante ();
@@ -29,6 +37,8 @@ public class Scholar {
         Estudiante1.apellido = "dulce ";
         System.out.println("nombre del estudiante1 " + Estudiante1.nombre + Estudiante1.apellido);
         Estudiante1.printName();
+        
+        
                 
               
                 

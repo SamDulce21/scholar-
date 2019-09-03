@@ -21,6 +21,7 @@ public class Persona {
     public String direccion;
     public String correo_electronico;
     public String genero;
+    public String edad; 
 
     public String getNombre() {
         return nombre;
@@ -106,6 +107,13 @@ public class Persona {
         System.out.println(this.nombre + " " + this.apellido);
     
     }
+    public int calcEdad(){ 
+       return 10 ;
+        
+        
+    }
+    
     
     }
+
 
